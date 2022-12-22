@@ -1,0 +1,91 @@
+python-jmespath (0.10.0-1) unstable; urgency=medium
+
+  * New upstream version 0.10.0
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Sat, 30 May 2020 14:04:59 +0900
+
+python-jmespath (0.9.5-1) unstable; urgency=medium
+
+  [ TANIGUCHI Takaki ]
+  * add CI config
+  * New upstream version 0.9.5
+    - Fix SyntaxWarning (Closes: #953534)
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Wed, 01 Apr 2020 16:35:10 +0900
+
+python-jmespath (0.9.4-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+  * Bump Standards-Version to 4.4.1.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937851
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 26 Oct 2019 20:53:02 -0400
+
+python-jmespath (0.9.4-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/watch: Use https protocol
+  * d/control: Enable autopkgtest-pkg-python testsuite (Closes: #890511)
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Piotr Ożarowski ]
+  * Add dh-python to Build-Depends
+
+  [ TANIGUCHI Takaki ]
+  * New upstream version 0.9.4
+  * Bump Stanrads-Version to 4.3.0
+  * debian/compat: 12
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Wed, 27 Feb 2019 16:59:21 +0900
+
+python-jmespath (0.9.3-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+
+  [ TANIGUCHI Takaki ]
+  * New upstream version 0.9.3
+  * Bump Standards-Version to 4.0.0 (without changes)
+  * debian/compat: Bump to 10
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Fri, 30 Jun 2017 14:35:15 +0900
+
+python-jmespath (0.9.1-1) unstable; urgency=medium
+
+  * New upstream version 0.9.1
+  * Bump debian policy to 3.9.8
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Thu, 02 Feb 2017 20:13:20 +0900
+
+python-jmespath (0.9.0-2) unstable; urgency=medium
+
+  * debian/control: Add python-nose and python3-nose to Build-Depends.
+    (Closes: #804557)
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Wed, 25 Nov 2015 11:17:32 +0900
+
+python-jmespath (0.9.0-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Tue, 24 Nov 2015 23:40:03 +0900
+
+python-jmespath (0.4.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Mon, 23 Jun 2014 00:35:03 +0900
+
+python-jmespath (0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #734131)
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Sun, 29 Dec 2013 14:26:19 +0900
